@@ -152,6 +152,12 @@ common:
     url: https://x.com/1up_health
   - type: Blog
     url: https://1up.health/blog
+  - type: BlogRSS
+    url: https://1up.health/blog/feed/
+  - type: Blogs
+    url: blogs/blogs.json
+  - type: JSONLDContext
+    url: json-ld/1up-health-context.jsonld
   - type: StatusPage
     url: https://status.1up.health/
   - type: Plans

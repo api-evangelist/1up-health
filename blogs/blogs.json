@@ -1,0 +1,15 @@
+{
+  "name": "1upHealth Blog",
+  "description": "Healthcare trends, FHIR interoperability, CMS compliance, and health data insights from the 1upHealth team.",
+  "url": "https://1up.health/blog",
+  "rss": "https://1up.health/blog/feed/",
+  "tags": [
+    "FHIR",
+    "Healthcare Interoperability",
+    "CMS Compliance",
+    "Health Data",
+    "Patient Access",
+    "Prior Authorization"
+  ],
+  "last_fetched": "2026-06-12"
+}
