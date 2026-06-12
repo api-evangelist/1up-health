@@ -1,0 +1,165 @@
+aid: api-evangelist-1up-health
+name: 1upHealth
+description: >
+  1upHealth is a FHIR-based health data interoperability platform providing REST APIs for
+  connecting patient records across payers and providers. The platform supports HL7 FHIR R4,
+  SMART on FHIR, OAuth 2.0, and bulk data export, enabling health plans to acquire, manage,
+  exchange, and analyze clinical and claims data in a HIPAA-compliant cloud environment.
+  Products include Patient Access, Provider Access, Payer-to-Payer Data Exchange, Provider
+  Directory, Electronic Prior Authorization, and Formulary APIs.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/1up-health/refs/heads/main/apis.yml
+created: '2026-06-12'
+modified: '2026-06-12'
+specificationVersion: '0.19'
+tags:
+  - FHIR
+  - Health Data
+  - Interoperability
+  - Patient Access
+  - HL7
+  - SMART on FHIR
+  - Healthcare
+  - Payer
+  - Claims
+  - Electronic Prior Authorization
+apis:
+  - name: 1upHealth FHIR R4 API
+    description: >
+      Core FHIR R4 REST API providing full CRUD operations on all HL7 FHIR R4 resources
+      including Patient, Encounter, ExplanationOfBenefit, Observation, Medication, and more.
+      Supports dynamic search, version histories, Provenance, and AuditEvent tracking in a
+      HIPAA-compliant cloud. Authentication via OAuth 2.0 with client credentials and
+      authorization code flows.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.1up.health/docs
+    baseURL: https://gateway.1up.health
+    tags:
+      - FHIR R4
+      - Health Records
+      - Patient Data
+    properties:
+      - type: Documentation
+        url: https://docs.1up.health/docs
+      - type: OpenAPI
+        url: https://docs.1up.health/help-center/Content/en-US/api-references/rest-api-reference.html
+  - name: 1upHealth Patient Access API
+    description: >
+      FHIR-conformant Patient Access API enabling patients and authorized applications to
+      access clinical and claims data from health plans. Implements CMS Interoperability and
+      Patient Access Final Rule requirements using SMART on FHIR and OAuth 2.0 authorization
+      code flow. Supports patient demographics, labs, medications, procedures, allergies, and
+      claims data.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.1up.health/help-center/Content/en-US/get-started/cms-patient-access/developer-overview.html
+    baseURL: https://gateway.1up.health
+    tags:
+      - Patient Access
+      - SMART on FHIR
+      - CMS Compliance
+    properties:
+      - type: Documentation
+        url: https://docs.1up.health/help-center/Content/en-US/get-started/cms-patient-access/developer-overview.html
+  - name: 1upHealth Provider Access API
+    description: >
+      FHIR Bulk Export API enabling in-network providers to access member clinical, claims,
+      encounter, and prior authorization data within one business day of a valid request.
+      Covers all USCDI v1 data classes for encounters within 5 years and adjudicated claims
+      from January 1, 2016 onward. Uses OAuth 2.0 client credentials flow.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://1up.health/products/1up-comply/1up-provider-access-api/
+    baseURL: https://gateway.1up.health
+    tags:
+      - Provider Access
+      - Bulk Data
+      - FHIR Bulk Export
+    properties:
+      - type: Documentation
+        url: https://docs.1up.health/help-center/Content/en-US/api-references/apis.html
+  - name: 1upHealth Payer-to-Payer Data Exchange API
+    description: >
+      FHIR Bulk Export API enabling payers to exchange member clinical and claims data during
+      member transitions between health plans. Supports CMS Interoperability and Prior
+      Authorization Final Rule requirements. Uses OAuth 2.0 client credentials flow with
+      bulk-data scope.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.1up.health/help-center/Content/en-US/api-references/apis.html
+    baseURL: https://gateway.1up.health
+    tags:
+      - Payer-to-Payer
+      - Data Exchange
+      - Bulk Data
+    properties:
+      - type: Documentation
+        url: https://docs.1up.health/help-center/Content/en-US/api-references/apis.html
+  - name: 1upHealth Provider Directory API
+    description: >
+      FHIR-conformant Provider Directory API providing accurate, up-to-date provider
+      information to support CMS requirements for Medicare Advantage plans. Includes
+      practitioner, organization, location, and network data aligned with DaVinci PDEX Plan
+      Net Implementation Guide.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://1up.health/
+    baseURL: https://gateway.1up.health
+    tags:
+      - Provider Directory
+      - DaVinci
+      - Medicare Advantage
+    properties:
+      - type: Documentation
+        url: https://docs.1up.health/help-center/Content/en-US/api-references/apis.html
+  - name: 1upHealth Electronic Prior Authorization API
+    description: >
+      FHIR-based Electronic Prior Authorization (ePA) API integrating clinical data and AI
+      to streamline prior authorization workflows between payers and providers. Supports CMS
+      Interoperability and Prior Authorization Final Rule compliance requirements.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://1up.health/
+    baseURL: https://gateway.1up.health
+    tags:
+      - Prior Authorization
+      - ePA
+      - CMS Compliance
+    properties:
+      - type: Documentation
+        url: https://docs.1up.health/help-center/Content/en-US/api-references/apis.html
+  - name: 1upHealth System Search API
+    description: >
+      API for searching and connecting to health systems and payer networks, enabling
+      applications to discover available FHIR endpoints and initiate patient record connections
+      across the 1upHealth network of connected payers and providers.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.1up.health/help-center/Content/en-US/connect-patient/system-search-api.html
+    baseURL: https://gateway.1up.health
+    tags:
+      - Health Systems
+      - Network Discovery
+      - Patient Connect
+    properties:
+      - type: Documentation
+        url: https://docs.1up.health/help-center/Content/en-US/connect-patient/system-search-api.html
+common:
+  - type: Website
+    url: https://1up.health/
+  - type: Documentation
+    url: https://docs.1up.health/docs
+  - type: GitHub
+    url: https://github.com/1uphealth
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/1uphealth/
+  - type: X
+    url: https://x.com/1up_health
+  - type: Blog
+    url: https://1up.health/blog
+  - type: StatusPage
+    url: https://status.1up.health/
+  - type: Plans
+    url: plans/1up-health-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/1up-health-rate-limits.yml
+  - type: FinOps
+    url: finops/1up-health-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
