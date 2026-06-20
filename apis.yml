@@ -10,7 +10,7 @@ description: '1upHealth is a FHIR-based health data interoperability platform pr
 
   '
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/1up-health/refs/heads/main/apis.yml
 created: '2026-06-12'
 modified: '2026-06-12'
@@ -35,7 +35,7 @@ apis:
     with client credentials and authorization code flows.
 
     '
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.1up.health/docs
   baseURL: https://gateway.1up.health
   tags:
@@ -57,7 +57,7 @@ apis:
     medications, procedures, allergies, and claims data.
 
     '
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.1up.health/help-center/Content/en-US/get-started/cms-patient-access/developer-overview.html
   baseURL: https://gateway.1up.health
   tags:
@@ -75,7 +75,7 @@ apis:
     credentials flow.
 
     '
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://1up.health/products/1up-comply/1up-provider-access-api/
   baseURL: https://gateway.1up.health
   tags:
@@ -92,7 +92,7 @@ apis:
     flow with bulk-data scope.
 
     '
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.1up.health/help-center/Content/en-US/api-references/apis.html
   baseURL: https://gateway.1up.health
   tags:
@@ -109,7 +109,7 @@ apis:
     PDEX Plan Net Implementation Guide.
 
     '
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://1up.health/
   baseURL: https://gateway.1up.health
   tags:
@@ -125,7 +125,7 @@ apis:
     Supports CMS Interoperability and Prior Authorization Final Rule compliance requirements.
 
     '
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://1up.health/
   baseURL: https://gateway.1up.health
   tags:
@@ -141,7 +141,7 @@ apis:
     record connections across the 1upHealth network of connected payers and providers.
 
     '
-  image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://docs.1up.health/help-center/Content/en-US/connect-patient/system-search-api.html
   baseURL: https://gateway.1up.health
   tags:
