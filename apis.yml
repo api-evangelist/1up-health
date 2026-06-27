@@ -166,7 +166,7 @@ common:
   url: https://1up.health/blog
 - type: BlogRSS
   url: https://1up.health/blog/feed/
-- type: Blogs
+- type: Blog
   url: blogs/blogs.json
 - type: JSONLDContext
   url: json-ld/1up-health-context.jsonld

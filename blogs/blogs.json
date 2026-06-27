@@ -14,21 +14,24 @@
   "repo": "1up-health",
   "feeds": [
     {
-      "source": "https://1up.health/blog",
+      "source": "https://1up.health/blog/feed/",
       "feed_url": "https://1up.health/blog/feed/",
-      "title": "1upHealth Blog | Healthcare Trends, FHIR Interoperability & More",
-      "saved": 8,
+      "title": "",
+      "saved": 0,
       "method": "feed"
     },
     {
-      "source": "https://1up.health/blog/feed/",
-      "feed_url": "https://1up.health/blog/feed/",
-      "title": "1upHealth Blog | Healthcare Trends, FHIR Interoperability & More",
+      "source": "https://x.com/1up_health",
+      "error": "HTTPError"
+    },
+    {
+      "source": "https://1up.health/blog",
+      "feed_url": "https://1up.health/feed/",
+      "title": "",
       "saved": 0,
-      "method": "feed",
-      "note": "Same feed as https://1up.health/blog; posts counted under that source to avoid double-counting."
+      "method": "discovered"
     }
   ],
   "post_count": 8,
-  "fetched": "2026-06-21T17:00:00Z"
+  "fetched": "2026-06-27T12:03:07Z"
 }
